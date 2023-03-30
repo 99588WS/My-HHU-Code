@@ -1,2 +1,2 @@
 # My-HHU-Code
-some exercise code of hhu
+Some exercise code of java class in hhu
