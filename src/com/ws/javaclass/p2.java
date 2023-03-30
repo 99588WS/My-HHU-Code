@@ -1,3 +1,5 @@
+package com.ws.javaclass;
+
 import java.util.Scanner;
 
 /**

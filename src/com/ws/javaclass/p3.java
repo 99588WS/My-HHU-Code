@@ -1,3 +1,5 @@
+package com.ws.javaclass;
+
 /**
  * @author WS
  * @CreateTime 21:36
