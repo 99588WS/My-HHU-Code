@@ -1,4 +1,4 @@
-package com.ws.javaclass;
+package com.ws.javaclass.firstwork;
 
 import java.util.Scanner;
 
