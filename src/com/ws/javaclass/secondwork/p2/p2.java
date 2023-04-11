@@ -13,23 +13,29 @@ public class p2 {
         vehicle.showInfo();
     }
 
-}
-class Vehicle {
-    public double speed;
-    public double dist;
-    public double time;
+    public static class Vehicle {
+        public double speed;
+        public double dist;
+        public double time;
 
-    public Vehicle(double speed) {
-        this.speed = speed;
-    }
-    public double speedUp(double addSpeed) {
-        return this.speed = addSpeed;
-    }
-    public void drive(double time) {
-        this.time = time;
-        dist += this.time * speed;
-    }
-    public void showInfo() {
-        System.out.println("一共行驶了 ：" + dist + "公里");
+        public Vehicle() {
+        }
+
+        public Vehicle(double speed) {
+            this.speed = speed;
+        }
+
+        public void speedUp(double addSpeed) {
+            this.speed = addSpeed;
+        }
+
+        public void drive(double time) {
+            this.time = time;
+            dist += this.time * speed;
+        }
+
+        public void showInfo() {
+            System.out.println("一共行驶了 ：" + dist + "公里");
+        }
     }
 }
