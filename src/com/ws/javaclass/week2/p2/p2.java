@@ -1,4 +1,4 @@
-package com.ws.javaclass.secondwork.p2;
+package com.ws.javaclass.week2.p2;
 
 /**
  * @author WS
@@ -24,9 +24,9 @@ public class p2 {
         public Vehicle(double speed) {
             this.speed = speed;
         }
-
-        public void speedUp(double addSpeed) {
-            this.speed = addSpeed;
+        //重新设定速度
+        public void speedUp(double reSetSpeed) {
+            this.speed = reSetSpeed;
         }
 
         public void drive(double time) {

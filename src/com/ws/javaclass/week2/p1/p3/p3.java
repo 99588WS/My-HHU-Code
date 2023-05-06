@@ -1,4 +1,4 @@
-package com.ws.javaclass.secondwork.p3;
+package com.ws.javaclass.week2.p1.p3;
 
 /**
  * @author WS

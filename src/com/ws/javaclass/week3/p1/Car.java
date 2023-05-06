@@ -1,6 +1,6 @@
-package com.ws.javaclass.thirdwork.p1;
+package com.ws.javaclass.week3.p1;
 
-import com.ws.javaclass.secondwork.p2.p2;
+import com.ws.javaclass.week2.p2.p2;
 
 /**
  * @author WS
@@ -16,11 +16,14 @@ public class Car extends p2.Vehicle {
     }
 
     @Override
-    public void speedUp(double addSpeed) {
-        super.speedUp(addSpeed);
+    public void speedUp(double reSetSpeed) {
+        super.speedUp(reSetSpeed);
         if (speed >= maxSpeed) {
-            System.out.println("超速！");
+            System.out.println("Car超速！限速100，当前速度 " + speed);
             license -= 3;
+        }
+        else{
+            System.out.println("Car正常行驶！当前速度 " + speed);
         }
     }
 

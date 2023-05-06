@@ -1,4 +1,4 @@
-package com.ws.javaclass.thirdwork.p2;
+package com.ws.javaclass.week3.p2;
 
 import java.awt.*;
 

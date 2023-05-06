@@ -1,7 +1,6 @@
-package com.ws.javaclass.secondwork.p1;
+package com.ws.javaclass.week2.p1;
 
 import java.io.IOException;
-import java.util.Scanner;
 
 /**
  * @author WS
